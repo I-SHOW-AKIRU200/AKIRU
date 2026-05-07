@@ -1,4 +1,5 @@
-export default function ContactSection(): JSX.Element {
+import React from "react";
+export default function ContactSection(): React.JSX.Element {
   return (
     <section id="contact" className="relative py-32 px-6">
       <div className="max-w-6xl mx-auto">
