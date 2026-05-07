@@ -1,3 +1,4 @@
+import React from "react";
 interface Skill {
   name: string;
   category: string;
@@ -17,7 +18,7 @@ const SKILLS: Skill[] = [
   { name: "Python", category: "Language", level: 80, icon: "🐍", color: "#3776ab" },
 ];
 
-export default function SkillsSection(): JSX.Element {
+export default function SkillsSection(): React.JSX.Element {
   return (
     <section id="skills" className="relative py-32 px-6">
       {/* Decorative bg glow */}
