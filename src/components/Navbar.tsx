@@ -1,10 +1,11 @@
+import React from "react";
 "use client";
 
 import { useState, useEffect } from "react";
 
 const NAV_LINKS = ["About", "Skills", "Contact"];
 
-export default function Navbar(): JSX.Element {
+export default function Navbar(): React.JSX.Element {
   const [scrolled, setScrolled] = useState<boolean>(false);
 
   useEffect(() => {
