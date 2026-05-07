@@ -1,8 +1,9 @@
+import React from "react";
 "use client";
 
 import { useEffect, useRef } from "react";
 
-export default function CustomCursor(): JSX.Element {
+export default function CustomCursor(): React.JSX.Element {
   const dotRef = useRef<HTMLDivElement>(null);
   const ringRef = useRef<HTMLDivElement>(null);
   const posRef = useRef({ x: 0, y: 0 });
