@@ -1,4 +1,5 @@
-export default function AboutSection(): JSX.Element {
+import React from "react";
+export default function AboutSection(): React.JSX.Element {
   const stats = [
     { value: "Full", label: "Stack Coverage" },
     { value: "∞", label: "Lines of Code" },
