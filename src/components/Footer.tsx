@@ -1,4 +1,5 @@
-export default function Footer(): JSX.Element {
+import React from "react";
+export default function Footer(): React.JSX.Element {
   return (
     <footer className="border-t border-[#1a1a1a] py-10 px-6">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
