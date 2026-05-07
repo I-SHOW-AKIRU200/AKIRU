@@ -1,3 +1,4 @@
+import React from "react";
 "use client";
 
 import { useEffect, useRef, useCallback } from "react";
@@ -22,7 +23,7 @@ const CONNECTION_DISTANCE = 140;
 const MOUSE_REPEL_RADIUS = 100;
 const COLORS = ["#00ff88", "#00cc6a", "#00ffaa", "#88ffcc"];
 
-export default function ParticleCanvas(): JSX.Element {
+export default function ParticleCanvas(): React.JSX.Element {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particlesRef = useRef<Particle[]>([]);
   const mouseRef = useRef<Mouse>({ x: -9999, y: -9999 });
