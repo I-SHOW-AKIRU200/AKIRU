@@ -1,3 +1,4 @@
+import React from "react";
 "use client";
 
 import { useScrollReveal } from "@/hooks/useScrollReveal";
@@ -10,7 +11,7 @@ import SkillsSection from "@/components/SkillsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
-export default function HomePage(): JSX.Element {
+export default function HomePage(): React.JSX.Element {
   useScrollReveal();
 
   return (
