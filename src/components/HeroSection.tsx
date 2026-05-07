@@ -1,3 +1,4 @@
+import React from "react";
 "use client";
 
 import { useTypewriter } from "@/hooks/useTypewriter";
@@ -10,7 +11,7 @@ const ROLES = [
   "UI Craftsman",
 ];
 
-export default function HeroSection(): JSX.Element {
+export default function HeroSection(): React.JSX.Element {
   const typed = useTypewriter(ROLES);
 
   const handleScroll = (id: string): void => {
