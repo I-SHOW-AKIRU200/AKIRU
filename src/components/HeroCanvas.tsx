@@ -34,7 +34,7 @@ export function HeroCanvas({ frames, hasError }: HeroCanvasProps) {
       const iw = img.naturalWidth;
       const ih = img.naturalHeight;
 
-      const scale = Math.max(cw / iw, ch / ih);
+      const scale = Math.min(cw / iw, ch / ih) * 0.92;
       const w = iw * scale;
       const h = ih * scale;
       const x = (cw - w) / 2;
